@@ -52,51 +52,30 @@
     /* 2 */
   }
   
-  /**
-     * 1. Correct the inheritance and scaling of font size in all browsers.
-     * 2. Correct the odd `em` font sizing in all browsers.
-     */
+ 
   pre {
     font-family: monospace, monospace;
-    /* 1 */
     font-size: 1em;
-    /* 2 */
+
   }
   
-  /* Text-level semantics
-       ========================================================================== */
-  /**
-     * Remove the gray background on active links in IE 10.
-     */
   a {
     background-color: transparent;
   }
   
-  /**
-     * 1. Remove the bottom border in Chrome 57-
-     * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-     */
+
   abbr[title] {
     border-bottom: none;
-    /* 1 */
     text-decoration: underline;
-    /* 2 */
     text-decoration: underline dotted;
-    /* 2 */
+
   }
   
-  /**
-     * Add the correct font weight in Chrome, Edge, and Safari.
-     */
   b,
   strong {
     font-weight: bolder;
   }
-  
-  /**
-     * 1. Correct the inheritance and scaling of font size in all browsers.
-     * 2. Correct the odd `em` font sizing in all browsers.
-     */
+
   code,
   kbd,
   samp {
@@ -337,11 +316,6 @@
     display: none;
   }
   
-  /* 
-    =================
-    END NORMALIZE CSS
-    =================
-    */
   *,
   *::before,
   *::after {
@@ -1089,16 +1063,16 @@
   }
   
   .btn.btn-black:hover {
-    background-color: #666666;
+    background-color: #797474;
   }
   
   .btn.btn-link {
-    background-color: #1b89bc;
+    background-color: #215c77;
     color: #ffffff;
   }
   
   .btn.btn-link:hover {
-    background-color: #31a9e1;
+    background-color: #4a768a;
   }
   
   .card {
@@ -1108,7 +1082,7 @@
   
   .card .card-header {
     padding: 0.375rem;
-    background-color: #2d3e50;
+    background-color: #3d5772;
     color: #d9e9e8;
   }
   
@@ -1349,7 +1323,6 @@
     max-width: 100%;
   }
   
-  /* col-sm */
   @media screen and (min-width: 640px) {
     .col-sm-auto {
       flex-grow: 1;
@@ -1634,7 +1607,6 @@
     }
   }
   
-  /* col-xl */
   @media screen and (min-width: 1200px) {
     .col-xl-1 {
       flex: 0 0 8.33333%;
@@ -1757,7 +1729,7 @@
     /* text-align: inherit; */
     margin: 0.5rem;
     width: 100%;
-    background-color: #5098e6;
+    background-color: #335c88;
     color: #d9e9e8;
   }
   
