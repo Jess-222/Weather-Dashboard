@@ -26,7 +26,7 @@ THEN I am again presented with current and future conditions for that city
 
 The following image shows the web application's appearance:
 
-![site img](./Assets/06-server-side-apis-homework-demo.png)
+![site img](./assets/weather%20dashboard.png)
 
 ## Link
 
