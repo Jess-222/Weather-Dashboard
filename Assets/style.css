@@ -309,9 +309,6 @@
     display: none;
   }
   
-  /**
-     * Add the correct display in IE 10.
-     */
   [hidden] {
     display: none;
   }
@@ -395,16 +392,15 @@
   }
   
   a {
-    color: #1b89bc;
+    color: #3871bb;
     text-decoration: none;
   }
   
   a:hover {
-    color: #065b83;
+    color: #1b6088;
     text-decoration: underline;
   }
   
-  /* HEIGHT / WIDTH UTILS */
   .w-100 {
     width: 100%;
   }
@@ -429,8 +425,6 @@
     min-width: 100vw;
   }
   
-  /* MARGIN/PADDING UTILS */
-  /* Margin - all sides */
   .m-0 {
     margin: 0;
   }
@@ -575,7 +569,6 @@
     margin-left: auto;
   }
   
-  /* Margin - x axis */
   .mx-0 {
     margin-right: 0;
     margin-left: 0;
@@ -611,7 +604,6 @@
     margin-left: auto;
   }
   
-  /* Margin - y axis */
   .my-0 {
     margin-top: 0;
     margin-bottom: 0;
@@ -722,7 +714,7 @@
     padding-top: 1.625rem;
   }
   
-  /* padding-right */
+
   .pr-0 {
     padding-right: 0;
   }
@@ -747,7 +739,7 @@
     padding-right: 1.625rem;
   }
   
-  /* padding-left */
+
   .pl-0 {
     padding-left: 0;
   }
@@ -772,7 +764,7 @@
     padding-left: 1.625rem;
   }
   
-  /* padding - x axis */
+
   .px-0 {
     padding-right: 0;
     padding-left: 0;
@@ -803,7 +795,7 @@
     padding-left: 1.625rem;
   }
   
-  /* Padding - y axis */
+  
   .py-0 {
     padding-top: 0;
     padding-bottom: 0;
@@ -890,17 +882,17 @@
     color: #1b89bc !important;
   }
   
-  /* BACKGROUND UTILS */
+  /* BACKGROUND */
   .bg-primary {
     background-color: #2d3e50 !important;
   }
   
   .bg-info {
-    background-color: #1bbc9b !important;
+    background-color: #41adbb !important;
   }
   
   .bg-danger {
-    background-color: #e64c66 !important;
+    background-color: #b32c43 !important;
   }
   
   .bg-light {
@@ -923,7 +915,7 @@
     background-color: #1b89bc !important;
   }
   
-  /* DISPLAY */
+ 
   .display-none {
     display: none !important;
   }
@@ -989,16 +981,16 @@
   }
   
   .btn.btn-primary:hover {
-    background-color: #57779a;
+    background-color: #5b84af;
   }
   
   .btn.btn-danger {
-    background-color: #e64c66;
+    background-color: #a1132b;
     color: #ffffff;
   }
   
   .btn.btn-danger:hover {
-    background-color: #ee8294;
+    background-color: #fd7289;
   }
   
   .btn.btn-warning {
@@ -1007,27 +999,27 @@
   }
   
   .btn.btn-warning:hover {
-    background-color: #ffca2cf5;
+    background-color: #f1dc1cf5;
     color: #000000;
   }
   
   .btn.btn-success {
-    background-color: #157347;
+    background-color: #1d8062;
     color: #ffffff;
   }
   
   .btn.btn-success:hover {
-    background-color: #12854f;
+    background-color: #128568;
     color: #ffffff;
   }
   
   .btn.btn-info {
-    background-color: #1bbc9b;
+    background-color: #1bb7bc;
     color: #ffffff;
   }
   
   .btn.btn-info:hover {
-    background-color: #31e1bd;
+    background-color: #8ad9df;
   }
   
   .btn.btn-light {
@@ -1036,7 +1028,7 @@
   }
   
   .btn.btn-light:hover {
-    background-color: #84b8b4;
+    background-color: #73a08b;
   }
   
   .btn.btn-dark {
@@ -1045,7 +1037,7 @@
   }
   
   .btn.btn-dark:hover {
-    background-color: #5f5f5f;
+    background-color: #797676;
   }
   
   .btn.btn-white {
@@ -1054,7 +1046,7 @@
   }
   
   .btn.btn-white:hover {
-    background-color: #cccccc;
+    background-color: #d6d0d0;
   }
   
   .btn.btn-black {
@@ -1063,11 +1055,11 @@
   }
   
   .btn.btn-black:hover {
-    background-color: #797474;
+    background-color: #978989;
   }
   
   .btn.btn-link {
-    background-color: #215c77;
+    background-color: #285b74;
     color: #ffffff;
   }
   
