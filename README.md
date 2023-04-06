@@ -30,3 +30,4 @@ The following image shows the web application's appearance:
 
 ## Link
 
+https://jess-222.github.io/Weather-Dashboard/
